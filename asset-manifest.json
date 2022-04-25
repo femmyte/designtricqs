@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/designtricqs/static/css/main.ad914d58.css",
-    "main.js": "/designtricqs/static/js/main.a8595e24.js",
+    "main.css": "/designtricqs/static/css/main.119e86ce.css",
+    "main.js": "/designtricqs/static/js/main.1920f17b.js",
+    "static/media/hero.jpg": "/designtricqs/static/media/hero.1fc2a166711ae079aca8.jpg",
+    "static/media/rectangle.png": "/designtricqs/static/media/rectangle.e73411aa5dbfb3079f6c.png",
+    "static/media/preview.jpg": "/designtricqs/static/media/preview.e7b00e5dd6ff9c3c4a46.jpg",
     "static/media/azeem.jpg": "/designtricqs/static/media/azeem.bed34bdeadb9e847d0a1.jpg",
     "static/media/lanre.png": "/designtricqs/static/media/lanre.fd067c3f389276e0e61c.png",
     "static/media/desktop.jpg": "/designtricqs/static/media/desktop.702c1b47b393c3f5855e.jpg",
     "static/media/logo.png": "/designtricqs/static/media/logo.fd537d09e0ded591337e.png",
     "index.html": "/designtricqs/index.html",
-    "main.ad914d58.css.map": "/designtricqs/static/css/main.ad914d58.css.map",
-    "main.a8595e24.js.map": "/designtricqs/static/js/main.a8595e24.js.map"
+    "main.119e86ce.css.map": "/designtricqs/static/css/main.119e86ce.css.map",
+    "main.1920f17b.js.map": "/designtricqs/static/js/main.1920f17b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad914d58.css",
-    "static/js/main.a8595e24.js"
+    "static/css/main.119e86ce.css",
+    "static/js/main.1920f17b.js"
   ]
 }
