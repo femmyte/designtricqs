@@ -1,18 +1,22 @@
-import About from './About'
+import About from './components/About'
 import './App.css'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 import Portfolio from './components/Portfolio'
-import Header from './Header'
-import Nav from './Nav'
-import Services from './Services'
+import Header from './components/Header'
+import Nav from './components/Nav'
+import Services from './components/Services'
 
 function App() {
   return (
-    <div className='App'>
+    <div>
       <Nav />
       <Header />
       <Services />
       <About />
       <Portfolio />
+      <Contact />
+      <Footer />
     </div>
   )
 }

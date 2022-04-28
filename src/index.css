@@ -1,13 +1,64 @@
 body {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Reggae One', cursive;
+  font-family: 'Urbanist', sans-serif;
+  max-width: 100%;
+  /* overflow-x: hidden; */
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  /* box-sizing: border-box; */
+  /* background-color: aqua; */
+  /* position: relative; */
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.App {
+  width: 100%;
+  margin: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.post {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  letter-spacing: 0.02em;
+
+  color: #967297;
+  margin: 0;
+}
+.hero {
+  width: 50%;
+  margin: auto;
+  display: flex;
+}
+.hero-img {
+  width: 346px;
+  height: 346px;
+}
+.preview-img {
+  width: 346px;
+  height: 346px;
+}
+.rectangle {
+  width: 90vw;
+  margin: auto;
+  overflow-x: hidden;
+  margin-top: 2em;
+}
+.rectangle-img {
+  width: 100%;
+  height: 346px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 100vw;
+    /* overflow-x: hidden; */
+  }
 }

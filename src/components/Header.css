@@ -1,0 +1,134 @@
+header.container {
+  width: 80vw;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+.container > .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.column {
+  flex: 48%;
+}
+.content {
+  padding-right: 4em;
+}
+.column h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+
+  color: #b122b4;
+}
+.column p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #967297;
+  margin-top: 1.5em;
+}
+.hire-btn {
+  width: 231px;
+  height: 62px;
+  background: #b122b4;
+  border-radius: 5px;
+  align-self: flex-end;
+  border: none;
+  margin-top: 4em;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.header-img-box {
+  width: 100%;
+  height: 509px;
+  border-radius: 0px 0px 0px 200px;
+  /* box-shadow: 2px 2px 2px; */
+  background: url('../resources/desktop.jpg');
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backface-visibility: visible;
+}
+.header-img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  header.container {
+    width: 90vw;
+    margin: auto;
+    margin-top: 2em;
+  }
+  .container > .row {
+    display: block;
+  }
+  .column {
+    /* flex: 50%; */
+    margin-top: 1em;
+  }
+  .content {
+    /* margin-right: 0.4em; */
+    margin: auto;
+    width: 95%;
+  }
+  .header-img-box {
+    width: 90%;
+    margin: auto;
+    height: 20em;
+    border-radius: 0px 0px 0px 100px;
+    background: url('../resources/desktop.jpg');
+    background-position: center center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+  }
+  .header-img {
+    width: 100%;
+    height: 100%;
+  }
+  .column h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 1.3em;
+    letter-spacing: 0.02em;
+    color: #b122b4;
+  }
+  .column p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6em;
+    line-height: 1.3em;
+    letter-spacing: 0.01em;
+    text-align: justify;
+    color: #8e748f;
+  }
+  .hire-btn {
+    width: 6em;
+    height: 62px;
+    background: #b122b4;
+    border-radius: 5px;
+    border: none;
+    margin-top: 2em;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+  }
+}

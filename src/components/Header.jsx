@@ -1,11 +1,12 @@
 import React from 'react'
-import headerImg from './resources/desktop.jpg'
+
+import './Header.css'
 const Header = () => {
   return (
-    <header>
-      <div className='container'>
-        <div className='row'>
-          <article className='column content'>
+    <header className='container'>
+      <div className='row'>
+        <article className='column'>
+          <div className='content'>
             <h1>DesignTricqs Is The Silent Ambassador Of Your Brand .</h1>
             <p>
               Design is in everything we make, but it’s also between those
@@ -14,12 +15,12 @@ const Header = () => {
               digital media including the web.
             </p>
             <button className='hire-btn'>HIRE US</button>
-          </article>{' '}
-          {/* end of column one */}
-          <article className='column header-img-box'>
-            {/* <img src={headerImg} alt='header-img' className='header-img' /> */}
-          </article>
-        </div>
+          </div>
+        </article>{' '}
+        {/* end of column one */}
+        <article className='column'>
+          <div className='header-img-box'></div>
+        </article>
       </div>
     </header>
   )

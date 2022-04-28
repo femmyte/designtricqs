@@ -1,0 +1,114 @@
+.about {
+  text-align: center;
+  margin-top: 2.3em;
+}
+.about_container {
+  margin: auto;
+  width: 75vw;
+  /* height: 499px; */
+  padding: 1em;
+  background: rgba(177, 34, 180, 0.04);
+  border-radius: 5.93994px;
+}
+.about_text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #967297;
+}
+.sub_title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 52px;
+  letter-spacing: 0.02em;
+
+  color: #967297;
+}
+.team_container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.team_card {
+  text-align: center;
+  align-items: center;
+  width: 38%;
+  /* height: 177.01px; */
+  background: #ffffff;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 5.93994px;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+}
+.team_img {
+  width: 143.32px;
+  height: 143.32px;
+  border-radius: 50%;
+}
+.name {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  letter-spacing: 0.02em;
+
+  color: #b122b4;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .about {
+    text-align: center;
+    margin-top: 2em;
+  }
+  .about_container {
+    margin: auto;
+    width: 80vw;
+    padding: 1em;
+    background: rgba(177, 34, 180, 0.04);
+    border-radius: 5.93994px;
+  }
+  .about_text {
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 0.08em;
+  }
+  .team_container {
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-top: 2em;
+  }
+  .sub_title {
+    margin-top: 1.5em;
+  }
+  .team_card {
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    /* height: 177.01px; */
+    background: #ffffff;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 5.93994px;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    padding-bottom: 1em;
+  }
+  .team_img {
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+  }
+}

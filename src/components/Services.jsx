@@ -1,9 +1,10 @@
 import React from 'react'
 import Card from './Card'
+import './Services.css'
 const Services = () => {
   return (
     <>
-      <div className='services'>
+      <div className='services' id='services'>
         <h3 className='title'>Our Services</h3>
         <div className='services_wrapper'>
           <Card

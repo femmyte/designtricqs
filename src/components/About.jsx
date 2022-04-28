@@ -1,10 +1,10 @@
 import React from 'react'
-import lanre from './resources/lanre.png'
-import azeem from './resources/azeem.jpg'
-
+import lanre from '../resources/lanre.png'
+import azeem from '../resources/azeem.jpg'
+import './About.css'
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
       <h2 className='title'>About Us</h2>
       <div className='about_container'>
         <p className='about_text'>

@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+  .hero {
+    width: 80%;
+    margin: auto;
+    display: block;
+  }
+  .hero-img {
+    width: 80%;
+    height: 80%;
+    margin-bottom: 1em;
+  }
+  .preview-img {
+    margin-top: 1em;
+    width: 80%;
+    height: 80%;
+  }
+  .rectangle {
+    width: 90vw;
+    margin: auto;
+    overflow-x: hidden;
+    margin-top: 2em;
+  }
+  .rectangle-img {
+    display: none;
+    width: 100%;
+    height: 346px;
+  }
+}
